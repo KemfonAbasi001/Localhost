@@ -123,6 +123,8 @@ body {
     align-items: center;
     padding: 0;
     border-radius: 100%;
+    border: none;
+    cursor: pointer; 
 }
 
 .love_btn svg {
@@ -184,7 +186,8 @@ body {
 .card__price{
     font-weight: 600;
     font-size: 15.6px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(233, 234, 237, 0.8);
+    /* color: rgba(255, 255, 255, 0.6); */
 }
 
 .card__price span{
@@ -463,6 +466,10 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.inner-header span{
+  color: rgba(255, 255, 255, 0.5);
+
+}
 
 
 
