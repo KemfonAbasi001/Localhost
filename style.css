@@ -166,7 +166,7 @@ body {
 }
 
 .text--sm{
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     line-height: 16px;
     font-weight: 400;
     color: #ffffff66;
@@ -175,7 +175,7 @@ body {
 
 .card__price{
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15.6px;
     color: rgba(255, 255, 255, 0.6);
 }
 
