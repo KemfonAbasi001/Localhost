@@ -28,7 +28,7 @@ body {
     /* background-color: red; */
   width: min(90%, 1200px);
   margin-inline: auto;
-  gap: 50px;
+  gap: 30px;
   display: flex;
   flex-direction: column;
 
@@ -127,8 +127,8 @@ body {
 }
 
 .card__location{
-    font-size: 1.3rem;
-    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem;
+    color: #ffffff99;
 }
 
 .card__details-row{
@@ -148,13 +148,13 @@ body {
 
 .card__rating span{
     font-size: 1rem;
-    color: rgb(233, 234, 237);
+    color: #ffffff99;;
 }
 
 .card__rating svg{
     height: 20px;
     width: 20px;
-    fill: #e9eaed;
+    fill: #ffffff99;
 }
 
 .card__details{
@@ -174,8 +174,8 @@ body {
 
 
 .card__price{
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.6);
 }
 
