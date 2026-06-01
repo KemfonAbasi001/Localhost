@@ -55,7 +55,7 @@ body {
     font-size: 28px;
     font-weight: 400;
     line-height: 40px;
-    color: rgba(233, 234, 237, 0.9);
+    color: #e9eaede6;
 }
 
 
@@ -63,7 +63,8 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    color: #ffffff99;
+    color: rgb(103, 111, 126);
+    /* background: red; */
 }
 
 .section__grid{
@@ -132,7 +133,7 @@ body {
 
 .card__location{
     font-size: 1.05rem;
-    color: #ffffff99;
+    color: #e9eaede6;
     font-weight: 500;
 }
 
@@ -153,13 +154,13 @@ body {
 
 .card__rating span{
     font-size: 1rem;
-    color: #ffffff99;;
+    color: #e9eaede6;
 }
 
 .card__rating svg{
     height: 20px;
     width: 20px;
-    fill: #ffffff99;
+    fill: #e9eaede6;
 }
 
 .card__details{
@@ -174,7 +175,7 @@ body {
     font-size: 1.15rem;
     line-height: 16px;
     font-weight: 400;
-    color: #ffffff66;
+    color: #676f7e;
     /* background-color: red; */
 }
 
@@ -183,6 +184,11 @@ body {
     font-weight: 600;
     font-size: 15.6px;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.card__price span{
+    font-weight: 400;
+    color: #676f7e;
 }
 
 
@@ -195,7 +201,7 @@ body {
 }
 
 #destinations-grid .card__image-wrapper{
-  height: 350px;
+  height: 330px;
   /* object-fit: contain; */
 }
 
@@ -207,7 +213,7 @@ body {
 .card__destination-label{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 }
 
 
@@ -235,17 +241,77 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    /* gap: 2px; */
+}
+
+.card__destination-label .card__location{
+  color: rgb(255, 255, 255);
+}
+
+.card__destination-label .text--sm{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#experiences-grid .card__location{
+  color: #e9eaede6;
+}
+
+#experiences-grid .card{
+  background-color: #1F2228;
+  border-radius: 12px ;
+  overflow: hidden;
+  gap: 0;
+}
+
+.card__details__two{
+  /* background-color: #1F2228; */
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border-radius: 8px ; */
+}
+
+#experiences-grid .card__image-wrapper{
+  border-radius: 0;
+}
+
+/* Card Host & Price Row */
+.card__host-price {
+  border-width: .6px 0px 0 0;
+  border-top: 1px;
+  border-color: #E9EAED;
+  /* border-color: rgba(31, 34, 40, 0.3); */
+  border-style: solid;
+  /* border-bottom: 0px;
+  border-left: 0;
+  border-color: red;
+  border-right: 0; */
+    /* border-top-width: 10px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0; */
+    /* border-color: rgba(31, 34, 40, 0.3); */
+    /* border-style: solid; */
+    padding: 5px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 
-
-
-
-
-
-
-
+.card__host-avatar {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 100%;
+}
 
 
 
