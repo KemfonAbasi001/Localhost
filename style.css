@@ -52,7 +52,7 @@ body {
 }
 
 .section__title{
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 400;
     line-height: 40px;
     color: rgba(233, 234, 237, 0.9);
@@ -60,7 +60,7 @@ body {
 
 
 .text--md {
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     color: #ffffff99;
@@ -143,17 +143,18 @@ body {
     justify-content: center;
     align-items: center;
     color: #E9EAED;
-    fill: #E9EAED;
     gap: 6px;
 }
 
 .card__rating span{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: rgb(233, 234, 237);
 }
 
 .card__rating svg{
     height: 20px;
     width: 20px;
+    fill: #e9eaed;
 }
 
 .card__details{
@@ -165,7 +166,7 @@ body {
 }
 
 .text--sm{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 16px;
     font-weight: 400;
     color: #ffffff66;
@@ -174,7 +175,7 @@ body {
 
 .card__price{
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
 }
 
