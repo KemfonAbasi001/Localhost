@@ -15,9 +15,6 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-/* ===========================
-   CONTAINER — fluid + capped
-=========================== */
 .section{
     width: 100%;
     background-color: #0B0C0F;
@@ -25,7 +22,6 @@ body {
     padding: 80px 0;
 }
 .section__inner {
-    /* background-color: red; */
   width: min(90%, 1200px);
   margin-inline: auto;
   gap: 30px;
@@ -62,7 +58,7 @@ body {
 .text--md {
     font-size: 15px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 22px;
     color: rgb(103, 111, 126);
     /* background: red; */
 }
@@ -77,11 +73,16 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15px; */
+    /* background-color: red; */
     /* display: block; */
     /* border-radius: 12px; */
     overflow: hidden;
     transition: all 0.3s ease;
+}
+
+#featured-grid .card{
+  gap: 15px;
 }
 
 .card__image-wrapper {
@@ -265,7 +266,7 @@ body {
 
 .card__details__two{
   /* background-color: #1F2228; */
-  padding: 13px;
+  padding: 15px ;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -278,21 +279,6 @@ body {
 
 /* Card Host & Price Row */
 .card__host-price {
-  border-width: .6px 0px 0 0;
-  border-top: 1px;
-  border-color: #E9EAED;
-  /* border-color: rgba(31, 34, 40, 0.3); */
-  border-style: solid;
-  /* border-bottom: 0px;
-  border-left: 0;
-  border-color: red;
-  border-right: 0; */
-    /* border-top-width: 10px;
-    border-bottom-width: 0;
-    border-left-width: 0;
-    border-right-width: 0; */
-    /* border-color: rgba(31, 34, 40, 0.3); */
-    /* border-style: solid; */
     padding: 5px 0 0 0;
     display: flex;
     justify-content: space-between;
@@ -312,6 +298,210 @@ body {
     object-fit: cover;
     border-radius: 100%;
 }
+
+
+
+
+
+
+
+
+/* Review Card */
+.review-card {
+    background-color: #121317;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+}
+
+/* Quote Icon */
+.review-card #quote-icon {
+  fill: rgba(233, 234, 237, 0.15);
+}
+
+/* Review Stars */
+.review-card__stars svg {
+    height: 17px;
+    width: 17px;
+    /* width: fit-content; */
+    fill: rgba(233, 234, 237, 0.15);
+}
+
+.review-card__stars {
+    display: flex;
+    gap: 3px;
+}
+
+/* Review Author */
+.review-card__author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-card__author-avatar {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+#bg__img-section{
+    background: linear-gradient(to right, rgba(0, 0, 0, .7) 1%, rgba(0, 0, 0, .7) 100%), url(./images/house-three.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 30px;
+    border-radius: 16px;
+}
+
+.insidee-head {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: red; */
+}
+
+#bg__img-section .text--special {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 1.2px;
+    font-size: 11px;
+}
+
+#bg__img-section .inner-header {
+    font-size: 22px;
+    font-weight: 300;
+    /* line-height: 60px; */
+    color: white;
+}
+
+.insidee-head .text--md{
+  color: rgba(255, 255, 255, 0.6);
+
+}
+.anchor-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: start; */
+    /* align-items: start; */
+    margin-top: 5px;
+}
+
+.anchor-btn a {
+  width: 100%;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.anchor-one-btn {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 3px;
+    color: rgb(11, 12, 15);
+    background-color: rgb(255, 255, 255);
+}
+
+.anchor-one-btn svg {
+    height: 15px;
+}
+
+.anchor-two-btn {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.icons-text{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin-top: 10px;
+    /* background-color: blue; */
+    /* padding: 30px 0; */
+}
+
+.icon-text-one{
+    width: fit-content;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-section{
+    /* background-color: gold; */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* padding: 5px; */
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-section svg{
+    height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon-text-one .text--md{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
