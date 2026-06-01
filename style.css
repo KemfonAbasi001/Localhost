@@ -375,7 +375,7 @@ body {
 }
 
 #bg__img-section .inner-header {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 300;
     /* line-height: 60px; */
     color: white;
@@ -465,6 +465,104 @@ body {
 
 
 
+
+
+
+.footer-section{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0C0F;
+    border-top: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgb(31, 34, 40);
+}
+
+.second-footer__layer{
+    padding: 40px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: .8px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgb(31, 34, 40);
+}
+
+.footer__inner{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 40px;
+    /* background-color: gold; */
+}
+
+.first-footer__layer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    /* background-color: red; */
+}
+
+.first-footer__layer > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: blue; */
+}
+
+.first_layer-header .text--sm{
+    text-transform: uppercase;
+    color: rgba(233, 234, 237, 0.7);
+    font-weight: 600;
+}
+
+.first__layer--one .text--md{
+    color: rgb(103, 111, 126);
+}
+
+
+.just-text__footer{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.just-text__footer > .text--sm{
+    color: rgb(103, 111, 126);
+}
+
+.just-svg__footer svg{
+    height: 15px;
+    /* width: 14px; */
+    color: rgb(103, 111, 126);
+}
+
+.just-svg__footer{
+    display: flex;
+    gap: 10px;
+}
+
+.just-svg__footer > a{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 34, 40);
+    border-radius: 50%;
+}
 
 
 
