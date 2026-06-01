@@ -377,11 +377,11 @@ body {
     font-size: 11px;
 }
 
-#bg__img-section .inner-header {
+.inner-header {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 400;
     /* line-height: 60px; */
-    color: white;
+    color: rgba(233, 234, 237, 0.9);
 }
 
 .insidee-head .text--md{
